@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mockito</string>
+    <string name="change_number">Change number</string>
+</resources>
