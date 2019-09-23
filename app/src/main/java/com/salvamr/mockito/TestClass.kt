@@ -11,5 +11,5 @@ class TestClass @Inject constructor(private val testOperator: TestOperator) {
 
 @Singleton
 class TestOperator @Inject constructor() {
-    fun generatePositiveRandomNumber() = Random.nextInt()
+    fun generatePositiveRandomNumber(): Int = Random.nextInt()
 }
